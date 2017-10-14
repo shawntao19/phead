@@ -18,21 +18,16 @@
     <HR>
     <BR>
     <!-- 下面的表单将以Get方法, 将数据传递给Response.jsp -->
-    <td align="left" >
-        <input type="radio" name="choose" id="choose1" size="20" value="1" onchange="hide()">1列
-        <input type="radio" name="choose" id="choose2" size="20" value="2" onchange="hide()">2列
-        <input type="radio" name="choose" id="choose3" size="20" value="1" onchange="hide()">3列
-        <input type="radio" name="choose" id="choose4" size="20" value="2" onchange="hide()">4列
-    </td>
 
 
     <FORM id="form1" action="Response.jsp" method=get name=form>
-        <p>
+        <tr>
         <TD name=sl1 id="jjdt6">基金定投:<INPUT type=text name=jjdt>,</TD>
         <TD>基金定投2:<INPUT type=text name=jjdt2>,</TD>
         <TD>基金定投3:<INPUT type=text name=jjdt3>,</TD>
         <TD>基金定投4:<INPUT type=text name=jjdt4></TD>
-    </p> 
+    </tr> 
+     <br>
     <tr>
         <TD name=sl1 >有效户:<INPUT type=text name=yxh>, </TD>
         <TD>有效户2:<INPUT type=text name=yxh2>,</TD>
