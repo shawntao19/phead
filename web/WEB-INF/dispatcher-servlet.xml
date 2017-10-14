@@ -35,5 +35,17 @@
     <bean name="indexController"
           class="org.springframework.web.servlet.mvc.ParameterizableViewController"
           p:viewName="index" />
+    
+    <bean id="excelMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <props>
+                <prop key="excel.htm">excelController</prop>
+            </props>
+        </property>
+    </bean>
+    
+    <bean name="excelController"
+            class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+            p:viewName="excel" />
 
 </beans>
