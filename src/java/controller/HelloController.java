@@ -16,7 +16,7 @@ public class HelloController implements  Controller{
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 
         ModelAndView mv = new ModelAndView();
-        mv.addObject("message", "Hello World!你好");  
+        mv.addObject("message", "~~~Hello World!你好~~~");  
         mv.setViewName("hello");
         return mv;
     }
