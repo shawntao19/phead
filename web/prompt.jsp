@@ -43,6 +43,13 @@
         <br>
         <br>
         <input type="button" value="删除" onclick="return confirm('Yes/No');"/>
+        <input type="button" name="btn2" id="btn2" value="提示" onclick="javaScript:alert('您确定要删除吗？')"/>
+        <input type="button" value="提交" onclick="javaScript:window.location.href = 'http://www.baidu.com';"/> 
+        <input type="button" value="关闭" onclick="javaScript:window.close();"/>
+        <a href="#" onclick="javascript:;
+                window.opener.location.reload();
+                window.close()">返回</a>  
+        <input type="button" name="button" value="< 返回" onclick="javascript:history.go(-1)"/>
 
     </body>
 </html>
