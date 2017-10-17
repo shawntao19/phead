@@ -61,6 +61,12 @@
 
     <a>导出表格</a>
     
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     
     <INPUT name="pclog" type="button" value="弹出框测试" onClick="location.href = 'prompt.jsp'">
 
